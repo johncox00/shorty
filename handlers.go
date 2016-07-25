@@ -13,7 +13,7 @@ type LinkShortnerAPI struct {
 }
 
 type UrlMap struct {
-  ShortUrl   string `json:shorturl`
+  ShortUrl   string  `json:shorturl`
   LongUrl    string  `json:longurl`
 }
 
