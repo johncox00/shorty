@@ -17,7 +17,7 @@ Then:
 to get
 
 ```
-{ "longurl" : ""http://somereallylongurl/with/a/path?and=query&string=params", "shorturl" : "J7ger30k"}
+{ "longurl" : "http://somereallylongurl/with/a/path?and=query&string=params", "shorturl" : "J7ger30k"}
 ```
 
 so that you can
@@ -27,7 +27,7 @@ so that you can
 and get the return
 
 ```
-{ "longurl" : ""http://somereallylongurl/with/a/path?and=query&string=params", "shorturl" : "J7ger30k"}
+{ "longurl" : "http://somereallylongurl/with/a/path?and=query&string=params", "shorturl" : "J7ger30k"}
 ```
 
 You can also `GET /J7ger30k/click_count` to get the number of times somebody has done a `GET` on your shorturl.
