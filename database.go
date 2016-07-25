@@ -21,8 +21,8 @@ func NewDBConnection() (conn *MongoConnection) {
 
 type mongoDocument struct {
   Id         bson.ObjectId `bson:"_id"`
-	ShortUrl   string        `bson:"shorturl"`
-	LongUrl    string        `bson:"longurl"`
+  ShortUrl   string        `bson:"shorturl"`
+  LongUrl    string        `bson:"longurl"`
   ClickCount int           `bson:"click_count"`
 }
 
