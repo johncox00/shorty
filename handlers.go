@@ -13,16 +13,16 @@ type LinkShortnerAPI struct {
 }
 
 type UrlMap struct {
-  ShortUrl   string  `json:shorturl`
-  LongUrl    string  `json:longurl`
+  ShortUrl   string  `json:"shorturl"`
+  LongUrl    string  `json:"longurl"`
 }
 
 type UrlClickCount struct {
-	ClickCount  int `json:click_count`
+	ClickCount  int `json:"click_count"`
 }
 
 type ApiErrorResponse struct {
-  ErrorMsg  string  `json:error_message`
+  ErrorMsg  string  `json:"error_message"`
 }
 
 func NewUrlLinkShortenerAPI() *LinkShortnerAPI {
